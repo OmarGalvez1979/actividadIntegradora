@@ -112,3 +112,54 @@ body {
     background-color: var(--color-secundario);
 }
 
+/* Proyectos */
+.proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.proyecto {
+    width: 200px;
+    padding: 10px;
+    background-color: var(--color-blanco);
+}
+
+.proyecto img {
+    width: 100%;
+}
+
+.proyecto h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.proyecto p {
+    margin: 0;
+}
+
+/* Formulario de contacto */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.formulario label {
+    margin-top: 10px;
+}
+
+.formulario input,
+.formulario textarea {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.boton {
+    margin-top: 15px;
+    padding: 10px;
+    color: var(--color-blanco);
+    background-color: var(--color-principal);
+    border: none;
+}
+
