@@ -44,3 +44,35 @@ body {
     color: var(--color-blanco);
 }
 
+/* Menú de navegación */
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.menu a {
+    color: var(--color-blanco);
+    text-decoration: none;
+}
+
+/* Sección principal */
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 20px;
+}
+
+.principal-texto {
+    max-width: 450px;
+}
+
+.avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
